@@ -13,11 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "Project
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmptyApp", "EmptyApp", "{CAB0CBD0-4E46-4B46-B340-461E8BCF4198}"
 	ProjectSection(SolutionItems) = preProject
-		ProjectTemplates\EmptyApp\MyTemplate.vstemplate = ProjectTemplates\EmptyApp\MyTemplate.vstemplate
 		ProjectTemplates\EmptyApp\OouiFormsApp.csproj = ProjectTemplates\EmptyApp\OouiFormsApp.csproj
+		ProjectTemplates\EmptyApp\OouiFormsApp.vstemplate = ProjectTemplates\EmptyApp\OouiFormsApp.vstemplate
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OouiFormsApp", "Projects\EmptyApp\OouiFormsApp\OouiFormsApp.csproj", "{DF414AA4-6310-490B-A74B-9E73D2D55AA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WasmEmptyApp", "WasmEmptyApp", "{11C62818-2748-4700-9243-16BC73AC128F}"
+	ProjectSection(SolutionItems) = preProject
+		ProjectTemplates\WasmEmptyApp\WasmFormsEmptyApp.csproj = ProjectTemplates\WasmEmptyApp\WasmFormsEmptyApp.csproj
+		ProjectTemplates\WasmEmptyApp\WasmFormsEmptyApp.vstemplate = ProjectTemplates\WasmEmptyApp\WasmFormsEmptyApp.vstemplate
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WasmEmptyApp", "WasmEmptyApp", "{9244D2D5-A5A9-49B2-91B9-88F392253F93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WasmFormsEmptyApp", "Projects\WasmEmptyApp\WasmFormsEmptyApp\WasmFormsEmptyApp.csproj", "{A7D5BD9D-DD63-4B61-ABA6-9C4EB63D546D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,10 @@ Global
 		{DF414AA4-6310-490B-A74B-9E73D2D55AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF414AA4-6310-490B-A74B-9E73D2D55AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF414AA4-6310-490B-A74B-9E73D2D55AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D5BD9D-DD63-4B61-ABA6-9C4EB63D546D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D5BD9D-DD63-4B61-ABA6-9C4EB63D546D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D5BD9D-DD63-4B61-ABA6-9C4EB63D546D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D5BD9D-DD63-4B61-ABA6-9C4EB63D546D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +55,9 @@ Global
 		{C9F84B9D-CA16-4900-AA93-4C6EF7FE6B9B} = {5B7AAFBE-F903-48F3-B088-00CA5751E4CE}
 		{CAB0CBD0-4E46-4B46-B340-461E8BCF4198} = {959E6C3C-868D-4DFA-BF0F-1D5B9588B20F}
 		{DF414AA4-6310-490B-A74B-9E73D2D55AA3} = {C9F84B9D-CA16-4900-AA93-4C6EF7FE6B9B}
+		{11C62818-2748-4700-9243-16BC73AC128F} = {959E6C3C-868D-4DFA-BF0F-1D5B9588B20F}
+		{9244D2D5-A5A9-49B2-91B9-88F392253F93} = {5B7AAFBE-F903-48F3-B088-00CA5751E4CE}
+		{A7D5BD9D-DD63-4B61-ABA6-9C4EB63D546D} = {9244D2D5-A5A9-49B2-91B9-88F392253F93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {948E5A4D-3BBA-4A49-AB26-8C64578957A1}

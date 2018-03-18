@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WasmFormsEmptyApp</Name>
+    <Description>Ooui Xamarin.Forms WebAssembly Project Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WasmFormsEmptyApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+	<CreateInPlace>true</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="WasmFormsEmptyApp.csproj" File="WasmFormsEmptyApp.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
